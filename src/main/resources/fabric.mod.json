@@ -9,7 +9,7 @@
 	],
 	"license": "MIT",
 	"icon": "assets/epgm/icon.png",
-	"environment": "CLIENT",
+	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.danrus.epgm.Epgm"
