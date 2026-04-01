@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.danrus.epgm.mixin.client",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"MinecraftMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"mixins": [
+		"MouseHandlerMixin"
+	]
+}

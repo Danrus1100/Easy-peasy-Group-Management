@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "epgm",
+	"version": "${version}",
+	"name": "Easy-peasy Group Management",
+	"description": "Control your block/item group as butter!",
+	"authors": [
+		"Danrus110_"
+	],
+	"license": "MIT",
+	"icon": "assets/epgm/icon.png",
+	"environment": "CLIENT",
+	"entrypoints": {
+		"main": [
+			"com.danrus.epgm.Epgm"
+		],
+		"client": [
+			"com.danrus.epgm.EpgmClient"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "26.1.1-alpha.26.14.a",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
